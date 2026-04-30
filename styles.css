@@ -203,7 +203,7 @@ button {
 }
 
 .navbar.scrolled .navbar-link {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .navbar-link::after {
@@ -1054,7 +1054,9 @@ button {
     .navbar-link::after {
         background: white;
     }
-
+.navbar.scrolled .navbar-link {
+    color: rgb(255, 255, 255);
+}
     /* Hero tablet — 2 columnas (texto | foto), stats debajo de la foto */
     .hero {
         padding: 80px var(--spacing-md) var(--spacing-xl);
